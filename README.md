@@ -4,7 +4,8 @@ ssh grader@18.196.33.181 -i [private key] -p 2200
 
 passcode: passw0rd
 
-run 'sudo python rest-app/project.py' on the ubuntu server
+run 'cd rest-app' to change the directory to rest-app before running the app
+run 'sudo python project.py' to start the cataloge app
 try in browser http://18.196.33.181/ to access the catalogapp
 
 Software installed and third-party resource used:
@@ -39,7 +40,7 @@ ssh-keygen /directory/
 ls /Users/Paul/.ssh/
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKNjI+okfZrzX04jgEiUPSX1iqIduG5MTxNE7jQe6ab84ivG/kSPHjWqVo1s0/S6Id5FAeJmbjax0CfMzdPXf3/s5Uqc/TdrmsOu+5MjvaE+z0llRNg7YsvppcugekBYiTM3M0lXqKu23p5JrbG9iATS4D892/KWqTj0gOll00NyfQaJbJDmGo4Bf1Cn3sfQPY3rhX9U0eVn/X3XnnMvz4xXuz8mwkvnXid4cSEVIbcydpQCIVmhxpg1hsd3RxpCax+pdHOEk20+fVKyVJtVrzcN1os38miXgB+uB0Rb2wlmLS2ojfq3H1DM9o5YWQJtlLGoy9LhdqIzCrzahkGjmj paul@Pauls-MBP
 
-copy the private key
+copy the public key
 
 get back to the server login as the new user:
 
