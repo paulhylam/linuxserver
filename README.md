@@ -1,5 +1,3 @@
-# linuxserver
-
 # Instructions for grader
 
 ssh grader@18.196.33.181 -i [private key] -p 2200
